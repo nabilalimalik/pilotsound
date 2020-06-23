@@ -1,0 +1,421 @@
+html {
+	font-family: lato;
+}
+@font-face {
+	font-family: lato;
+	src: url("lato/Lato-Regular.ttf");
+}
+body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #2b303b;
+}
+#header
+{
+    padding: 2% 0;
+    text-align: center;
+    color: #AB72A9;
+    background-color: #1c212b;
+    font-size: 100px;
+}
+#titleimg{
+    transition: all .5s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #a0add5 solid;
+    border-radius: 10%;
+    background-image: url('pilot.png');
+    background-size: 250px 250px;
+}
+#titleimg:hover{
+    transition: all .5s ease-in-out;
+    border: 5px #AB72A9 solid;
+}
+.subhead{
+	color: #a0add5;
+	font-size: 25px;
+	text-align: center;
+	padding: 0px;
+}
+.subhead:hover{
+	color: #AB72A9;
+	text-decoration: none;
+}
+.body{
+    font-size: 20px;
+}
+#midgoto{
+    font-size: 35px;
+}
+#midgoto a{
+    color: #a0add5;
+    text-decoration: none;
+}
+#midgoto a:hover{
+    color: #AB72A9;
+    text-decoration: overline;
+}
+.recentlyadded{
+    color: #a0add5;
+    font-size: 25px;
+    text-align: center;
+}
+.artistsrow1{
+    display: inline-block;
+}
+
+.artistdrake{
+    float: left;
+    margin-right: 25px;
+    font-size: 30px;
+}
+.artistdrake a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #00C2DB;
+}
+.artistdrake a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #DAAAD0;
+}
+#drake{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #DAAAD0 solid;
+    border-radius: 100% 1% 100% 100%;
+    background-image: url('drake.jpg');
+    background-size: 250px 250px;
+}
+#drake:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #00C2DB solid;
+    border-radius: 0%;
+}
+
+.artisttheweeknd{
+    float: right;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.artisttheweeknd a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #EBBF18;
+}
+.artisttheweeknd a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #B50037;
+}
+#theweeknd{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #B50037 solid;
+    border-radius: 1% 100% 100% 100%;
+    background-image: url('theweeknd.jpg');
+    background-size: 250px 250px;
+}
+#theweeknd:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #EBBF18 solid;
+    border-radius: 0%;
+}
+
+.artistlilyachty{
+    float: right;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.artistlilyachty a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #DA3522;
+}
+.artistlilyachty a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #F8F8F8;
+}
+#lilyachty{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #F8F8F8 solid;
+    border-radius: 100%;
+    background-image: url('lilyachty.jpg');
+    background-size: 250px 250px;
+}
+#lilyachty:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #DA3522 solid;
+    border-radius: 0%;
+}
+
+.artistsrow2{
+    display: inline-block;
+}
+
+.artistkanyewest{
+    float: right;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.artistkanyewest a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #CE4744;
+}
+.artistkanyewest a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #5C7A94;
+}
+#kanyewest{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #5C7A94 solid;
+    border-radius: 100% 100% 100% 1%;
+    background-image: url('kanyewest.jpg');
+    background-size: 250px 250px;
+}
+#kanyewest:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #CE4744 solid;
+    border-radius: 0%;
+}
+
+.artistbrunomars{
+    float: left;
+    margin-right: 25px;
+    font-size: 30px;
+}
+.artistbrunomars a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #ADC6A9;
+}
+.artistbrunomars a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #E2643C;
+}
+#brunomars{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #E2643C solid;
+    border-radius: 100% 100% 1% 100%;
+    background-image: url('brunomars.jpg');
+    background-size: 250px 250px;
+}
+#brunomars:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #ADC6A9 solid;
+    border-radius: 0%;
+}
+
+.artistdram{
+    float: left;
+    margin-right: 25px;
+    font-size: 30px;
+}
+.artistdram a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #B5BBC7;
+}
+.artistdram a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #161620;
+}
+#dram{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #161620 solid;
+    border-radius: 100%;
+    background-image: url('dram.jpg');
+    background-size: 250px 250px;
+}
+#dram:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #B5BBC7 solid;
+    border-radius: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.artistsrow3{
+    display: inline-block;
+}
+
+.artistkendricklamar{
+    float: right;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.artistkendricklamar a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #CCB9AA;
+}
+.artistkendricklamar a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #68080C;
+}
+#kendricklamar{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #68080C solid;
+    border-radius: 1% 100% 100% 100%;
+    background-image: url('kendricklamar.jpg');
+    background-size: 250px 250px;
+}
+#kendricklamar:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #CCB9AA solid;
+    border-radius: 0%;
+}
+
+.artisteminem{
+    float: left;
+    margin-right: 25px;
+    font-size: 30px;
+}
+.artisteminem a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #EBF427;
+}
+.artisteminem a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #00C3F7;
+}
+#eminem{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #00C3F7 solid;
+    border-radius: 100% 1% 100% 100%;
+    background-image: url('eminem.jpg');
+    background-size: 250px 250px;
+}
+#eminem:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #EBF427 solid;
+    border-radius: 0%;
+}
+
+.artistrihanna{
+    float: left;
+    margin-right: 25px;
+    font-size: 30px;
+}
+.artistrihanna a{
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #B96759;
+}
+.artistrihanna a:hover{
+    transition: all .2s ease-in-out;
+    text-decoration: overline;
+    color: #8A744F;
+}
+#rihanna{
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 250px;    margin: 2% auto;
+    border: 5px #8A744F solid;
+    border-radius: 100%;
+    background-image: url('rihanna.jpg');
+    background-size: 250px 250px;
+}
+#rihanna:hover{
+    transition: all .2s ease-in-out;
+    border: 10px #B96759 solid;
+    border-radius: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#masthead
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px auto;
+    text-align: center;
+    color: #a0add5;
+    background-color: #1c212b;
+    font-size: 5px;
+}
